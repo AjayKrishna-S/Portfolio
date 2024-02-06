@@ -564,18 +564,14 @@ animate
         background-image: url(image/por-1.png);
         height: 60vh;
     }   
-
     .social-icons {
         height: 60vh;
         margin-left: 50px;
     }
-
 }
 
 @media (min-width:751px) and (max-width:950px){
    .social-icons {
-
        margin-left: 50px;
    }
-
 }
