@@ -137,10 +137,12 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     font-size: 35px;
-    padding-left: 300px;
+    padding: 0 5px;
+    margin-left: 295px;
     justify-content: end;
     align-items: center;
     height: 100vh;
+    background-color: var(--primary);
 }
 
 .social-icons a {
@@ -487,8 +489,11 @@ animate
     .social_icons{
         display: none;
     }
+    /*profile section*/
+    #full-row {
+        background-image: url(image/por-1.PNG);
+    }
     /* About section  */
-
     .about_info p{
         font-size: 20px;
         padding: 20px 20px;
