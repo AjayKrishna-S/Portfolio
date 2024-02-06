@@ -489,10 +489,6 @@ animate
     .social_icons{
         display: none;
     }
-    /*profile section*/
-    #full-row {
-        background-image: url(image/por-1.PNG);
-    }
     /* About section  */
     .about_info p{
         font-size: 20px;
@@ -532,7 +528,7 @@ animate
     margin-bottom: 20px;
 }
 
-/* Testimonial section  */
+/* miss vision section  */
 .miss-vis-info p::before{
     display:none;
 }
@@ -559,5 +555,27 @@ animate
 }
 
 
+
+}
+
+@media screen and (max-width:750px) {
+     /*profile section*/
+     #full-row {
+        background-image: url(image/por-1.png);
+        height: 60vh;
+    }   
+
+    .social-icons {
+        height: 60vh;
+        margin-left: 50px;
+    }
+
+}
+
+@media (min-width:751px) and (max-width:950px){
+   .social-icons {
+
+       margin-left: 50px;
+   }
 
 }
